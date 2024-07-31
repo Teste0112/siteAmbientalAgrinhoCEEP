@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/agricultura-regenerativa.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tela-cadastro {
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+    width: 540px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 40px black;
+}
+
+.tela-cadastro input {
+    margin: 7px;
+    padding: 10px;
+    width: 230px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    
+}
+
+.tela-cadastro #campoDeConfirmeSenha {
+    margin-right: 10px;
+
+}
+
+.tela-cadastro label {
+    font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+}
+
+.tela-cadastro h1 {
+    color: white;
+    font-style: italic;
+
+}
+
+#btn {
+    margin-left: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .3s;
+    width: 250px;
+}
+
+#btn:hover {
+    transform: scale(1.1);
+}

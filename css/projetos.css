@@ -1,0 +1,394 @@
+html {
+    font-size: 110%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.img21{
+    margin-top: 7%;
+    margin-left: 4%;
+    width: 350px;
+    height: 400px;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img21 img {
+    transition: transform 0.3s ease;
+    margin-left: 25%;
+    width: 600px;
+    height: 400px;
+}
+
+ .img21 img:hover {
+    transform: scale(1.1);
+}
+
+#monitoramento {
+    top: -15%;
+    color: black;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000
+}
+
+.bt1 {
+    background-color: #ffd000; 
+    position: relative;
+    border: none; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    margin-top: 3%;
+    left: 11.5%;
+    margin-bottom: 3%;
+    cursor: pointer; 
+    border-radius: 8px;
+    transition: all .2s;
+    font-weight: bold;
+}
+
+.bt1:hover{
+    background-color: #e7bd00;
+}
+
+.img22 {
+    position: absolute;
+    margin-top: -30.6%;
+    margin-left: 35%;
+    width: 350px;
+    height: 400px;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img22 img {
+    transition: transform 0.3s ease;
+
+    width: 600px;
+    height: 400px;
+}
+
+.img22 img:hover {
+    transform: scale(1.1);
+}
+
+#estufatxt {
+    top: -360%;
+    left: 40%;
+    color: black;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000
+}
+
+.bt2 {
+    background-color: #ffd000; 
+    position: relative;
+    border: none; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    margin-top: 3%;
+    left: 30.5%;
+    margin-bottom: 3%;
+    cursor: pointer; 
+    border-radius: 8px;
+    transition: all .2s;
+    font-weight: bold;
+}
+
+.bt2:hover{
+    background-color: #e7bd00;
+}
+
+.img23 {
+    position: absolute;
+    margin-top: -30.6%;
+    margin-left: 66%;
+    width: 350px;
+    height: 400px;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+.img23 img {
+    transition: transform 0.3s ease;
+    
+    width: 600px;
+    height: 400px;
+}
+    
+.img23 img:hover {
+    transform: scale(1.1);
+}
+
+#plantanosextremos {
+    margin-top: 3.5%;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 68.5%;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000
+}
+
+.bt3 {
+    background-color: #ffd000; 
+    position: relative;
+    border: none; 
+    color: black;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    margin-top: 3%;
+    left: 50.5%;
+    margin-bottom: 3%;
+    cursor: pointer; 
+    border-radius: 8px;
+    transition: all .2s;
+    font-weight: bold;
+}
+
+.bt3:hover{
+    background-color: #e7bd00;
+}
+
+#hrkkj {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.img24 {
+    width: 400px;
+    height: 200px;
+    margin-top: 4%;
+    margin-left: 4%;
+    position: absolute;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img24 img{
+    width: 400px;
+    height: 200px;
+}
+
+.plantastxt {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+
+    transition: all .2s;
+
+}
+
+.plantastxt:hover {
+    color: greenyellow;
+}
+
+.plantastxt2 {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 37%;
+    text-align: center;
+    color: greenyellow;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+
+    transition: all .2s;
+
+}
+
+.plantastxt2:hover {
+    color: green;
+
+}
+
+.plantastxt3 {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 48%;
+    text-align: center;
+    color: rgb(184, 184, 184);
+    white-space: nowrap;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
+#hr10 {
+    margin-top: 25%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.img25 {
+    width: 400px;
+    height: 200px;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    position: absolute;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img25 img{
+    width: 400px;
+    height: 200px;
+}
+
+.cidadetxt {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    transition: all .2s;
+
+}
+
+.cidadetxt:hover {
+    color: greenyellow;
+
+}
+
+.cidadetxt2 {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 37%;
+    text-align: center;
+    color: greenyellow;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+    transition: all .2s;
+
+}
+
+.cidadetxt2:hover {
+    color: green;
+
+}
+
+.cidadetxt3 {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 41%;
+    margin-left: 45%;
+    text-align: center;
+    color: rgb(184, 184, 184);
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
+#blyat {
+    position: relative;
+    margin-top: 24%;
+    margin-left: 40px;
+    margin-right: 40px;
+}

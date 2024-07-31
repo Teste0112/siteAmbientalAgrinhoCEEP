@@ -1,0 +1,229 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.menu-central {
+    background-color: green;
+    box-sizing: border-box;
+    border-bottom: 1px solid white  ;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu-central  a{
+    margin: 20px;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+
+.menu-central a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.menu-central img{
+    margin-right: 95%;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-top: 5px;
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+}
+
+body, .menu-central {
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.modal-content {
+    border: none;
+    margin: 1% auto;
+    padding: 0px;
+    width: 75%;
+}
+
+.modal.show {
+    display: block;
+    opacity: 1;
+}
+
+.modal.hide {
+    display: block;
+    opacity: 0;
+}
+
+#myBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all .1s;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    transform: scale(1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#mainBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#mainBtn:hover {
+    transform: scale(1.5);
+    text-decoration: underline;
+}
+
+#user {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+#login-tela {
+    background-image: url('../imagens/agricultura-regenerativa-planta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tela-login {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/agricultura-regenerativa-planta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    top: 50%;
+    margin-left: 27%;
+    margin-right: 27%;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0px 0px 40px black;
+}
+
+.tela-login input {
+    padding: 10px;
+    width: 290px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.tela-login h2 {
+   color: white;
+   font-size: 40px;
+}
+
+.tela-login button {
+    text-align: center;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    transition: all .3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .3s;
+    width: 310px;
+    margin-left: 2px;
+}
+
+.tela-login button:hover {
+    transform: scale(1.1);
+}
+
+#esqueceuSenha {
+    color: #8B008B;
+    background-color: transparent;
+    position: relative;   
+}
