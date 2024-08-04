@@ -75,19 +75,16 @@ body, .menu-central {
 }
 
 #text45{
-    color: rgb(0, 241, 101);
-    text-shadow:   0 0 40px rgb(0, 255, 34);
     position: absolute;
     text-align: center;
+    color: white;
     margin-top: -10.8%;
     margin-left: 16%;
-
     text-shadow:
     -1px -1px 0 #000,  
     1px -1px 0 #000,
    -1px  1px 0 #000,
     1px  1px 0 #000
-
 }
 
 .img1 img{
